@@ -1100,7 +1100,7 @@ class FrontendController extends Controller
                     [
                         "itemId" => $package->id,
                         "name" => $package->title,
-                        "description" => $package->description,
+                        "description" => 'Dr Neviene Bishay - Package',
                         "quantity" => "1",
                         "price" => $total,
                     ]
